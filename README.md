@@ -7,7 +7,7 @@ Inspired by [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
 
 Following [awesome-semantic-web](https://github.com/semantalytics/awesome-semantic-web) contribution mechanisms:
 
-- to add something to the list please either [submit a pull request](https://github.com/commons-research/awesome-rust-datascience/compare) or add a comment with a link to issues/awesomelets. Pull requests will be evaluated shortly for inclusion while awesomelets will be evaluated at some indeterminate time in the future.
+- to add something to the list please either [submit a pull request](https://github.com/commons-research/awesome-rust-datascience/pulls) or add a comment with a link to issues/awesomelets. Pull requests will be evaluated shortly for inclusion while awesomelets will be evaluated at some indeterminate time in the future.
 
 - Looking for something but can't find it? Add it to the "Does it exist" list and we'll keep an eye out for it. If it's a good idea maybe someone will come along and create it!
 
