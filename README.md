@@ -31,6 +31,9 @@ Inspired by [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
 - [datafusion](https://github.com/apache/arrow-datafusion) — Query engine using Apache Arrow.
 
 ### Machine Learning
+
+More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning)
+
 - [linfa](https://github.com/rust-ml/linfa) — A Rust ML toolkit (similar to scikit-learn).
 - [tch-rs](https://github.com/LaurentMazare/tch-rs) — PyTorch bindings for Rust.
 - [burn](https://github.com/tracel-ai/burn) — Comprehensive deep learning framework in Rust.
@@ -40,9 +43,13 @@ Inspired by [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
 - [nalgebra](https://github.com/dimforge/nalgebra) — General-purpose linear algebra library.
 - [ndarray-stats](https://github.com/rust-ndarray/ndarray-stats) — Statistical routines for `ndarray`.
 
+
 ### Visualization
 - [plotters](https://github.com/plotters-rs/plotters) — Drawing library for data plotting.
-- [vega_lite](https://github.com/johnwdubois/vega_lite_4_rs) — Rust bindings for Vega-Lite.
+- [vega_lite](https://github.com/procyon-rs/vega_lite_4.rs) — Rust bindings for Vega-Lite.
+- [charming](https://github.com/yuankunzhang/charming) — A Rust library for creating charts using Apache ECharts.
+- [rustplotlib](https://github.com/askanium/rustplotlib) — A pure Rust visualization library inspired by D3.js
+
 
 ---
 
