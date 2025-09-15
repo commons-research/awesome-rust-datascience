@@ -5,11 +5,11 @@
 A curated list of **Rust crates, libraries, tools, and resources** for data science and bioinformatics.  
 Inspired by [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
 
-Following [awesome-semantic-web](https://github.com/semantalytics/awesome-semantic-web) contribution mechanisms:
+Adapting [awesome-semantic-web](https://github.com/semantalytics/awesome-semantic-web) contribution mechanisms:
 
-- to add something to the list please either [submit a pull request](https://github.com/commons-research/awesome-rust-datascience/pulls) or add a comment with a link to issues/awesomelets. Pull requests will be evaluated shortly for inclusion while awesomelets will be evaluated at some indeterminate time in the future.
+- to add something to the list please either go to https://github.com/commons-research/awesome-rust-datascience/blob/main/README.md and click on the "pen" icon in the upper right corner. Make the changes to the file and follow the instructions to create a pull request. Alternatively, add a comment with a link to [awesomelets](https://github.com/commons-research/awesome-rust-datascience/issues/1). Pull requests will be evaluated shortly for inclusion while awesomelets will be evaluated at some indeterminate time in the future.
 
-- Looking for something but can't find it? Add it to the "Does it exist" list and we'll keep an eye out for it. If it's a good idea maybe someone will come along and create it!
+- Looking for something but can't find it? Add it to the ["Does it exist"](https://github.com/commons-research/awesome-rust-datascience/issues/2) list and we'll keep an eye out for it. If it's a good idea maybe someone will come along and create it!
 
 ---
 
@@ -67,8 +67,8 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [needletail](https://github.com/onecodex/needletail) — Fast FASTA/Q parsing.
 
 ### Proteomics
-- [mzML-rs](https://github.com/compomics/mzML-rs) — mzML parsing for mass spectrometry data.
-- [msconvert-rs](https://github.com/mobiusklein/msconvert-rs) — Rust tools for proteomics data formats.
+- [mzcore](https://github.com/compomics/mzML-rs) — A Rust library for peptide centric mass spec calculations centered around ProForma and complex theoretical fragmentation
+
 
 
 ### Metabolomics
