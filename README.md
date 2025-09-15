@@ -57,8 +57,14 @@ Inspired by [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
 - [mzML-rs](https://github.com/compomics/mzML-rs) — mzML parsing for mass spectrometry data.
 - [msconvert-rs](https://github.com/mobiusklein/msconvert-rs) — Rust tools for proteomics data formats.
 
+
 ### Metabolomics
-- [mass-spec-tools](https://github.com/mass-spec-tools) — Collection of Rust tools for metabolomics and MS data.
+- [mzdata](https://github.com/mobiusklein/mzdata) — A Rust library for reading mass spectrometry data file formats.
+- [mzpeaks](https://github.com/mobiusklein/mzpeaks) — Types and traits for generic representation of peaks and features for mass spectrometry, including searchable collections and spatial data structures.
+- [mzsignal](https://github.com/mobiusklein/mzsignal) — Algorithms for low-level signal processing of mass spectra and temporal traces like chromatograms or mobilograms, including peak picking, feature extraction, signal averaging, smoothing and denoising.
+- [mzdeisotope](https://github.com/mobiusklein/mzdeisotope) — Algorithms for charge state deconvolution and deisotoping of mass spectra and feature maps.
+- [mass-fragment-index](https://github.com/mobiusklein/mass-fragment-index) — Data structures for large-scale searching of precursor-product collections suitable for fragment indices, spectral libraries, or similar data. Includes fast-to-search on-disk serialization.
+
 
 ---
 
