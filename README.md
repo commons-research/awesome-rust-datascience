@@ -55,6 +55,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [vega_lite](https://github.com/procyon-rs/vega_lite_4.rs) — Rust bindings for Vega-Lite.
 - [charming](https://github.com/yuankunzhang/charming) — A Rust library for creating charts using Apache ECharts.
 - [rustplotlib](https://github.com/askanium/rustplotlib) — A pure Rust visualization library inspired by D3.js
+- [plotly.rs](https://github.com/plotly/plotly.rs) - Plotly for Rust.
 
 
 ---
