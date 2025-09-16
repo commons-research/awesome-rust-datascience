@@ -3,7 +3,7 @@
 
 
 A curated list of **Rust crates, libraries, tools, and resources** for data science and bioinformatics.  
-Inspired by [awesome-rust](https://github.com/rust-unofficial/awesome-rust).
+See the [awesome-rust](https://github.com/rust-unofficial/awesome-rust) for a more comprehensive and less focussed list of crates of interest.
 
 Adapting [awesome-semantic-web](https://github.com/semantalytics/awesome-semantic-web) contribution mechanisms:
 
