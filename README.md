@@ -44,6 +44,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [linfa](https://github.com/rust-ml/linfa) — A Rust ML toolkit (similar to scikit-learn).
 - [rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) — The SDK for creating [MCP](https://en.wikipedia.org/wiki/Model_Context_Protocol) applications with Rust.
 - [tch-rs](https://github.com/LaurentMazare/tch-rs) — PyTorch bindings for Rust.
+- [augurs](https://github.com/grafana/augurs) Time series analysis for Rust (MSTL, ETS, Prophet).
 
 
 ### Numerical & Scientific Computing
