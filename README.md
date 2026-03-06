@@ -51,6 +51,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [ndarray](https://github.com/rust-ndarray/ndarray) — N-dimensional array library.
 - [nalgebra](https://github.com/dimforge/nalgebra) — General-purpose linear algebra library.
 - [ndarray-stats](https://github.com/rust-ndarray/ndarray-stats) — Statistical routines for `ndarray`.
+- [approx](https://github.com/brendanzab/approx) — Approximate floating point equality comparisons and assertions.
 
 
 ### Visualization
