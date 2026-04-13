@@ -23,6 +23,7 @@ Adapting [awesome-semantic-web](https://github.com/semantalytics/awesome-semanti
   - [Genomics](#genomics)
   - [Proteomics](#proteomics)
   - [Metabolomics](#metabolomics)
+- [Software Engineering](#software-engineering)
 - [Resources](#resources)
   - [Tutorials](#tutorials)
   - [Books & Courses](#books--courses)
@@ -83,6 +84,10 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [mzdeisotope](https://github.com/mobiusklein/mzdeisotope) — Algorithms for charge state deconvolution and deisotoping of mass spectra and feature maps.
 - [mass-fragment-index](https://github.com/mobiusklein/mass-fragment-index) — Data structures for large-scale searching of precursor-product collections suitable for fragment indices, spectral libraries, or similar data. Includes fast-to-search on-disk serialization.
 
+---
+
+## Software Engineering
+- [shadow-rs](https://github.com/baoyachi/shadow-rs) — A rust library that adds support for showing a project's `Cargo.toml` info at runtime. 
 
 ---
 
