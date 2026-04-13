@@ -65,7 +65,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 ---
 
 ## Bioinformatics
-
+- [sprocket](https://github.com/stjude-rust-labs/sprocket) — Bioinformatics workflow engine
 ### Genomics
 - [rust-bio](https://github.com/rust-bio/rust-bio) — Bioinformatics algorithms and data structures.
 - [rust-htslib](https://github.com/rust-bio/rust-htslib) — Bindings to HTSlib for BAM/CRAM/VCF.
