@@ -93,7 +93,10 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 ## Semantic Web
 
 ### RDF & KG
+
 ### Open Science
+- [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
+
 ### Semantics
 
 ---
