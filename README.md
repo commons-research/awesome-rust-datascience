@@ -23,6 +23,10 @@ Adapting [awesome-semantic-web](https://github.com/semantalytics/awesome-semanti
   - [Genomics](#genomics)
   - [Proteomics](#proteomics)
   - [Metabolomics](#metabolomics)
+- [Semantic Web](#semantic-web)
+  - [RDF & KG](#rdf-kg)
+  - [Open Science](#open-science)
+  - [Semantics](#semantics)
 - [Software Engineering](#software-engineering)
 - [Resources](#resources)
   - [Tutorials](#tutorials)
@@ -83,6 +87,14 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [mzsignal](https://github.com/mobiusklein/mzsignal) — Algorithms for low-level signal processing of mass spectra and temporal traces like chromatograms or mobilograms, including peak picking, feature extraction, signal averaging, smoothing and denoising.
 - [mzdeisotope](https://github.com/mobiusklein/mzdeisotope) — Algorithms for charge state deconvolution and deisotoping of mass spectra and feature maps.
 - [mass-fragment-index](https://github.com/mobiusklein/mass-fragment-index) — Data structures for large-scale searching of precursor-product collections suitable for fragment indices, spectral libraries, or similar data. Includes fast-to-search on-disk serialization.
+
+---
+
+## Semantic Web
+
+### RDF & KG
+### Open Science
+### Semantics
 
 ---
 
