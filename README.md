@@ -96,6 +96,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
+- [ro-create-rust](https://github.com/arunaengine/ro-crate-rust) — A Rust implementation of the [RO-Crate](https://www.researchobject.org/ro-crate/) metadata specification for Research Objects.
 
 ### Semantics
 
