@@ -93,6 +93,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 ## Semantic Web
 
 ### RDF & KG
+- [oxigraph](https://github.com/oxigraph/oxigraph) — A graph database implementing the SPARQL standard with the goal of being safe, compliant, and fast.
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
