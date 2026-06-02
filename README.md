@@ -109,6 +109,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 ## Software Engineering
 - [shadow-rs](https://github.com/baoyachi/shadow-rs) — A rust library that adds support for showing a project's `Cargo.toml` info at runtime. 
 - [citum-core](https://github.com/citum/citum-core) — A citation engine with a rich reference data model and style language.
+- [gloo](https://github.com/ranile/gloo) — A toolkit for building fast, reliable Web applications and libraries with Rust and Wasm.
 
 ---
 
