@@ -24,7 +24,7 @@ Adapting [awesome-semantic-web](https://github.com/semantalytics/awesome-semanti
   - [Proteomics](#proteomics)
   - [Metabolomics](#metabolomics)
 - [Semantic Web](#semantic-web)
-  - [RDF & KG](#rdf-kg)
+  - [RDF LD & KG](#rdf-ld-kg)
   - [Open Science](#open-science)
   - [Semantics](#semantics)
 - [Software Engineering](#software-engineering)
@@ -92,11 +92,13 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 
 ## Semantic Web
 
-### RDF & KG
+### RDF LD & KG
 - [oxigraph](https://github.com/oxigraph/oxigraph) — A graph database implementing the SPARQL standard with the goal of being safe, compliant, and fast.
   - [oxrdf](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf) — a simple library providing datastructures encoding [RDF 1.1 concepts](https://www.w3.org/TR/rdf11-concepts/).
 - [csv2rdf](https://github.com/DeciSym/csv2rdf) — Rust-based tool that converts CSV data into RDF format.
 - [nanopub-rs](https://nanopub.net/) — A comprehensive cross-platform toolkit to sign, publish, and check [Nanopublications](https://nanopub.net/).
+- [Kolibrie](https://github.com/StreamIntelligenceLab/Kolibrie) —  a high-performance, concurrent, and feature-rich SPARQL query engine implemented in Rust.
+- [FalkorSemantic](https://github.com/FalkorDB/FalkorSemantic) — A high-performance Redis module that extends [FalkorDB](https://www.falkordb.com/) with RDF and SPARQL capabilities, bridging the property graph and semantic web worlds.
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
@@ -104,6 +106,8 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [aruna](https://github.com/arunaengine/aruna) — A federated, FAIR peer-to-peer data management framework. 
 
 ### Semantics
+- [fastbo](https://github.com/fastobo/fastobo) — A library for *faultless* ASTs for Open Biomedical Ontologies.
+
 
 ---
 
