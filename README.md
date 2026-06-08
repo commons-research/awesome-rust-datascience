@@ -96,6 +96,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [oxigraph](https://github.com/oxigraph/oxigraph) — A graph database implementing the SPARQL standard with the goal of being safe, compliant, and fast.
   - [oxrdf](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf) — a simple library providing datastructures encoding [RDF 1.1 concepts](https://www.w3.org/TR/rdf11-concepts/).
 - [csv2rdf](https://github.com/DeciSym/csv2rdf) — Rust-based tool that converts CSV data into RDF format.
+- [nanopub-rs](https://nanopub.net/) — A comprehensive cross-platform toolkit to sign, publish, and check [Nanopublications](https://nanopub.net/).
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
