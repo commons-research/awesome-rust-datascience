@@ -109,7 +109,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 
 ### Semantics
 - [fastbo](https://github.com/fastobo/fastobo) — A library for *faultless* ASTs for Open Biomedical Ontologies.
-
+- [semantic web language server](https://github.com/SemanticWebLanguageServer/swls) — A server for IDEs to add functionality for semantic web languages.
 
 ---
 
