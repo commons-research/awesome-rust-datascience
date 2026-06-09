@@ -100,6 +100,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [Kolibrie](https://github.com/StreamIntelligenceLab/Kolibrie) —  a high-performance, concurrent, and feature-rich SPARQL query engine implemented in Rust.
 - [FalkorSemantic](https://github.com/FalkorDB/FalkorSemantic) — A high-performance Redis module that extends [FalkorDB](https://www.falkordb.com/) with RDF and SPARQL capabilities, bridging the property graph and semantic web worlds.
 - [Sophia](https://github.com/pchampin/sophia_rs) — A Rust toolkit for RDF and Linked Data comprising several crates.
+- [oxirs](https://github.com/cool-japan/oxirs) — A Rust-native, modular platform for Semantic Web, SPARQL 1.2, GraphQL, and AI-augmented reasoning.
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
