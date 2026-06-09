@@ -94,13 +94,25 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 
 ### RDF LD & KG
 - [oxigraph](https://github.com/oxigraph/oxigraph) — A graph database implementing the SPARQL standard with the goal of being safe, compliant, and fast.
-  - [oxrdf](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf) — a simple library providing datastructures encoding [RDF 1.1 concepts](https://www.w3.org/TR/rdf11-concepts/).
+  - [oxrdf](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf) — A simple library providing datastructures encoding [RDF 1.1 concepts](https://www.w3.org/TR/rdf11-concepts/).
+  - [oxrdf/xml](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdfxml) — A parser and serializer for [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/).
+  - [oxttl](https://github.com/oxigraph/oxigraph/tree/main/lib/oxttl) — A  set of parsers and serializers for [Turtle](https://www.w3.org/TR/turtle/), [TriG](https://www.w3.org/TR/trig/), [N-Triples](https://www.w3.org/TR/n-triples/), [N-Quads](https://www.w3.org/TR/n-quads/) and [N3](https://w3c.github.io/N3/spec/).
+  - [spargebra](https://github.com/oxigraph/oxigraph/tree/main/lib/spargebra) — A [SPARQL](https://www.w3.org/TR/sparql11-overview/) parser.
+  - [sparesults](https://github.com/oxigraph/oxigraph/tree/main/lib/sparesults) — A set of parsers and serializers for [SPARQL](https://www.w3.org/TR/sparql11-overview/) query result formats.
 - [csv2rdf](https://github.com/DeciSym/csv2rdf) — Rust-based tool that converts CSV data into RDF format.
 - [nanopub-rs](https://nanopub.net/) — A comprehensive cross-platform toolkit to sign, publish, and check [Nanopublications](https://nanopub.net/).
 - [Kolibrie](https://github.com/StreamIntelligenceLab/Kolibrie) —  a high-performance, concurrent, and feature-rich SPARQL query engine implemented in Rust.
 - [FalkorSemantic](https://github.com/FalkorDB/FalkorSemantic) — A high-performance Redis module that extends [FalkorDB](https://www.falkordb.com/) with RDF and SPARQL capabilities, bridging the property graph and semantic web worlds.
 - [Sophia](https://github.com/pchampin/sophia_rs) — A Rust toolkit for RDF and Linked Data comprising several crates.
 - [oxirs](https://github.com/cool-japan/oxirs) — A Rust-native, modular platform for Semantic Web, SPARQL 1.2, GraphQL, and AI-augmented reasoning.
+- [ontology-registry](https://github.com/P2GX/ontology-registry) — A robust, thread-safe Rust library for managing the lifecycle of biological ontologies.
+- [rdftk](https://github.com/johnstonskj/rust-rdftk) — A RDF toolkit as a set of crates providing the ability to work with RDF data.
+- [rdf.rs](https://github.com/rust-rdf/rdf.rs) — A framework for working with [RDF](https://www.w3.org/TR/rdf12-concepts/) knowledge graphs.
+- [linked-data-rs](https://github.com/spruceid/linked-data-rs) — Library that provides primitive traits to serialize and deserialize Linked-Data types.
+- [json-ld](https://github.com/timothee-haudebourg/json-ld) — A Rust implementation of the [JSON-LD](https://github.com/timothee-haudebourg/json-ld) data interchange format.
+- [horned-owl](https://github.com/phillord/horned-owl) — A library for processing and manipulating documents written using the [Web Ontology Langauge](https://github.com/phillord/horned-owl).
+- [rudof](https://github.com/rudof-project/rudof) — A RDF data shapes library implemented in Rust; supports [ShEx](http://shex.io/), [SHACL](https://www.w3.org/TR/shacl/), [DCTap](https://www.dublincore.org/specifications/dctap/).
+- [plow](https://github.com/field33/plow) — A package management solution for OWL ontologies using [Semver](https://semver.org/).
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
