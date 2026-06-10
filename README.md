@@ -113,6 +113,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [horned-owl](https://github.com/phillord/horned-owl) — A library for processing and manipulating documents written using the [Web Ontology Langauge](https://github.com/phillord/horned-owl).
 - [rudof](https://github.com/rudof-project/rudof) — A RDF data shapes library implemented in Rust; supports [ShEx](http://shex.io/), [SHACL](https://www.w3.org/TR/shacl/), [DCTap](https://www.dublincore.org/specifications/dctap/).
 - [plow](https://github.com/field33/plow) — A package management solution for OWL ontologies using [Semver](https://semver.org/).
+- [harriet](https://github.com/field33/harriet) — A parser for the [Turtle](https://www.w3.org/TR/turtle/) document format.
 
 ### Open Science
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
@@ -122,6 +123,17 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 ### Semantics
 - [fastbo](https://github.com/fastobo/fastobo) — A library for *faultless* ASTs for Open Biomedical Ontologies.
 - [semantic web language server](https://github.com/SemanticWebLanguageServer/swls) — A server for IDEs to add functionality for semantic web languages.
+- [reasonable](https://www.w3.org/TR/turtle/) — An OWL 2 RL reasoner with reasonable performance.
+- [roxi](https://github.com/pbonte/roxi) — A uniform framework for Reactive Reasoning applications.
+- [hdt](https://github.com/konradhoeffner/hdt) — A Rust library for the [Header Dictionary Triples](https://github.com/konradhoeffner/hdt) compressed RDF format.
+- [rickview](https://github.com/konradhoeffner/rickview) — An easy to deploy low-resource stand-alone RDF knowledge graph browser written in Rust. 
+- [decisym engine (`de`)](https://github.com/DeciSym/de) — A command-line tool for creating, querying, and inspecting RDF data in [HDT](http://www.rdfhdt.org/)(Header, Dictionary, Triples) format.
+- [wikibase_rest_api](https://github.com/magnusmanske/wikibase_rest_api) — A Rust client library for the [Wikibase REST API](https://doc.wikimedia.org/Wikibase/master/js/rest-api/).
+- [wikidata](https://github.com/syvb/wikidata/) — Rust bindings for [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) to make it easy to use data from Wikidata in Rust programs.
+- [listeria_rs](https://github.com/magnusmanske/listeria_rs) — Code base that runs the Listeria bot on Wikimedia wikis.
+- [json2rdf](https://github.com/DeciSym/json2rdf) — Rust-based tool that converts JSON data into RDF format. 
+- [xml2rdf](https://github.com/DeciSym/xml2rdf) — Rust-based tool converts XML to RDF.
+- [graph-rdfa-processor](https://github.com/nbittich/graph-rdfa-processor) — Rust and wasm library to extract RDF statements (in n-triples format) froml an html file based on rdfa annotations.
 
 ---
 
