@@ -134,6 +134,8 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [json2rdf](https://github.com/DeciSym/json2rdf) — Rust-based tool that converts JSON data into RDF format. 
 - [xml2rdf](https://github.com/DeciSym/xml2rdf) — Rust-based tool converts XML to RDF.
 - [graph-rdfa-processor](https://github.com/nbittich/graph-rdfa-processor) — Rust and wasm library to extract RDF statements (in n-triples format) froml an html file based on rdfa annotations.
+- [Qlue-ls](https://github.com/IoannisNezis/Qlue-ls) — A blazingly fast [language server](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification) for [SPARQL](https://de.wikipedia.org/wiki/SPARQL).
+- [manas](https://github.com/manomayam/manas) — Modular framework and ecosystem to create correct, robust storage servers adhering to [Solid protocol](https://solidproject.org/TR/protocol).
 
 ---
 
