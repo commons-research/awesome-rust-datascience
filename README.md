@@ -24,9 +24,11 @@ Adapting [awesome-semantic-web](https://github.com/semantalytics/awesome-semanti
   - [Proteomics](#proteomics)
   - [Metabolomics](#metabolomics)
 - [Semantic Web](#semantic-web)
-  - [RDF LD & KG](#rdf-ld-kg)
-  - [Open Science](#open-science)
-  - [Semantics](#semantics)
+  - [RDF, Linked Data & SPARQL](#rdf-linked-data--sparql)
+  - [Ontologies, Validation & Reasoning](#ontologies-validation--reasoning)
+  - [Data Conversion & Interchange](#data-conversion--interchange)
+  - [Knowledge Graph Stores & Applications](#knowledge-graph-stores--applications)
+  - [FAIR & Scholarly Data](#fair--scholarly-data)
 - [Software Engineering](#software-engineering)
 - [Resources](#resources)
   - [Tutorials](#tutorials)
@@ -92,53 +94,63 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 
 ## Semantic Web
 
-### RDF LD & KG
+
+### RDF, Linked Data & SPARQL
+- [harriet](https://github.com/field33/harriet) — A parser for the [Turtle](https://www.w3.org/TR/turtle/) document format.
+- [json-ld](https://github.com/timothee-haudebourg/json-ld) — A Rust implementation of the [JSON-LD](https://github.com/timothee-haudebourg/json-ld) data interchange format.
+- [Kolibrie](https://github.com/StreamIntelligenceLab/Kolibrie) —  a high-performance, concurrent, and feature-rich SPARQL query engine implemented in Rust.
+- [linked-data-rs](https://github.com/spruceid/linked-data-rs) — Library that provides primitive traits to serialize and deserialize Linked-Data types.
 - [oxigraph](https://github.com/oxigraph/oxigraph) — A graph database implementing the SPARQL standard with the goal of being safe, compliant, and fast.
   - [oxrdf](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf) — A simple library providing datastructures encoding [RDF 1.1 concepts](https://www.w3.org/TR/rdf11-concepts/).
   - [oxrdf/xml](https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdfxml) — A parser and serializer for [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/).
   - [oxttl](https://github.com/oxigraph/oxigraph/tree/main/lib/oxttl) — A  set of parsers and serializers for [Turtle](https://www.w3.org/TR/turtle/), [TriG](https://www.w3.org/TR/trig/), [N-Triples](https://www.w3.org/TR/n-triples/), [N-Quads](https://www.w3.org/TR/n-quads/) and [N3](https://w3c.github.io/N3/spec/).
   - [spargebra](https://github.com/oxigraph/oxigraph/tree/main/lib/spargebra) — A [SPARQL](https://www.w3.org/TR/sparql11-overview/) parser.
   - [sparesults](https://github.com/oxigraph/oxigraph/tree/main/lib/sparesults) — A set of parsers and serializers for [SPARQL](https://www.w3.org/TR/sparql11-overview/) query result formats.
-- [csv2rdf](https://github.com/DeciSym/csv2rdf) — Rust-based tool that converts CSV data into RDF format.
-- [nanopub-rs](https://nanopub.net/) — A comprehensive cross-platform toolkit to sign, publish, and check [Nanopublications](https://nanopub.net/).
-- [Kolibrie](https://github.com/StreamIntelligenceLab/Kolibrie) —  a high-performance, concurrent, and feature-rich SPARQL query engine implemented in Rust.
-- [FalkorSemantic](https://github.com/FalkorDB/FalkorSemantic) — A high-performance Redis module that extends [FalkorDB](https://www.falkordb.com/) with RDF and SPARQL capabilities, bridging the property graph and semantic web worlds.
-- [Sophia](https://github.com/pchampin/sophia_rs) — A Rust toolkit for RDF and Linked Data comprising several crates.
-- [oxirs](https://github.com/cool-japan/oxirs) — A Rust-native, modular platform for Semantic Web, SPARQL 1.2, GraphQL, and AI-augmented reasoning.
-- [ontology-registry](https://github.com/P2GX/ontology-registry) — A robust, thread-safe Rust library for managing the lifecycle of biological ontologies.
-- [rdftk](https://github.com/johnstonskj/rust-rdftk) — A RDF toolkit as a set of crates providing the ability to work with RDF data.
+- [Qlue-ls](https://github.com/IoannisNezis/Qlue-ls) — A blazingly fast [language server](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification) for [SPARQL](https://de.wikipedia.org/wiki/SPARQL).
 - [rdf.rs](https://github.com/rust-rdf/rdf.rs) — A framework for working with [RDF](https://www.w3.org/TR/rdf12-concepts/) knowledge graphs.
-- [linked-data-rs](https://github.com/spruceid/linked-data-rs) — Library that provides primitive traits to serialize and deserialize Linked-Data types.
-- [json-ld](https://github.com/timothee-haudebourg/json-ld) — A Rust implementation of the [JSON-LD](https://github.com/timothee-haudebourg/json-ld) data interchange format.
-- [horned-owl](https://github.com/phillord/horned-owl) — A library for processing and manipulating documents written using the [Web Ontology Langauge](https://github.com/phillord/horned-owl).
-- [rudof](https://github.com/rudof-project/rudof) — A RDF data shapes library implemented in Rust; supports [ShEx](http://shex.io/), [SHACL](https://www.w3.org/TR/shacl/), [DCTap](https://www.dublincore.org/specifications/dctap/).
-- [plow](https://github.com/field33/plow) — A package management solution for OWL ontologies using [Semver](https://semver.org/).
-- [harriet](https://github.com/field33/harriet) — A parser for the [Turtle](https://www.w3.org/TR/turtle/) document format.
+- [rdftk](https://github.com/johnstonskj/rust-rdftk) — An RDF toolkit as a set of crates providing the ability to work with RDF data.
+- [semantic web language server](https://github.com/SemanticWebLanguageServer/swls) — A server for IDEs to add functionality for semantic web languages.
+- [Sophia](https://github.com/pchampin/sophia_rs) — A Rust toolkit for RDF and Linked Data comprising several crates.
 
-### Open Science
+
+### Ontologies, Validation & Reasoning
+- [fastobo](https://github.com/fastobo/fastobo) — A library for *faultless* ASTs for Open Biomedical Ontologies.
+- [horned-owl](https://github.com/phillord/horned-owl) — A library for processing and manipulating documents written using the [Web Ontology Langauge](https://github.com/phillord/horned-owl).
+- [ontology-registry](https://github.com/P2GX/ontology-registry) — A robust, thread-safe Rust library for managing the lifecycle of biological ontologies.
+- [plow](https://github.com/field33/plow) — A package management solution for OWL ontologies using [Semver](https://semver.org/).
+- [reasonable](https://github.com/gtfierro/reasonable) — An OWL 2 RL reasoner with reasonable performance.
+- [roxi](https://github.com/pbonte/roxi) — A uniform framework for Reactive Reasoning applications.
+- [rudof](https://github.com/rudof-project/rudof) — An RDF data shapes library implemented in Rust; supports [ShEx](http://shex.io/), [SHACL](https://www.w3.org/TR/shacl/), [DCTap](https://www.dublincore.org/specifications/dctap/).
+
+
+### Data Conversion & Interchange
+- [csv2rdf](https://github.com/DeciSym/csv2rdf) — Rust-based tool that converts CSV data into RDF format.
+- [decisym engine (`de`)](https://github.com/DeciSym/de) — A command-line tool for creating, querying, and inspecting RDF data in [HDT](http://www.rdfhdt.org/)(Header, Dictionary, Triples) format.
+- [graph-rdfa-processor](https://github.com/nbittich/graph-rdfa-processor) — Rust and wasm library to extract RDF statements (in n-triples format) from an html file based on rdfa annotations.
+- [hdt](https://github.com/konradhoeffner/hdt) — A Rust library for the [Header Dictionary Triples](https://github.com/konradhoeffner/hdt) compressed RDF format.
+- [json2rdf](https://github.com/DeciSym/json2rdf) — Rust-based tool that converts JSON data into RDF format. 
+- [toon-ld](https://github.com/argahsuknesib/toon-ld) — Token-Oriented Object Notation for Linked Data (TOON-LD) is a lossless knowledge graph compression format for LLM Context Windows.
+- [xml2rdf](https://github.com/DeciSym/xml2rdf) — Rust-based tool that converts XML to RDF.
+
+
+### Knowledge Graph Stores & Application
+- [atomic-server](https://github.com/ontola/atomic-server) — A lightweight, yet powerful CMS / Graph Database using [Atomic Data](https://docs.atomicdata.dev/).
+- [FalkorSemantic](https://github.com/FalkorDB/FalkorSemantic) — A high-performance Redis module that extends [FalkorDB](https://www.falkordb.com/) with RDF and SPARQL capabilities, bridging the property graph and semantic web worlds.
+- [manas](https://github.com/manomayam/manas) — Modular framework and ecosystem to create correct, robust storage servers adhering to [Solid protocol](https://solidproject.org/TR/protocol).
+- [nextgraph-rs](https://git.nextgraph.org/NextGraph/nextgraph-rs) — A Rust implementation of [NextGraph](https://nextgraph.org/) ([github version](https://github.com/nextgraph-org/nextgraph-rs)).
+- [oxirs](https://github.com/cool-japan/oxirs) — A Rust-native, modular platform for Semantic Web, SPARQL 1.2, GraphQL, and AI-augmented reasoning.
+- [rickview](https://github.com/konradhoeffner/rickview) — An easy to deploy low-resource stand-alone RDF knowledge graph browser written in Rust. 
+
+
+### FAIR & Scholarly Data
+- [aruna](https://github.com/arunaengine/aruna) — A federated, FAIR peer-to-peer data management framework. 
+- [listeria_rs](https://github.com/magnusmanske/listeria_rs) — Code base that runs the Listeria bot on Wikimedia wikis.
+- [nanopub-rs](https://nanopub.net/) — A comprehensive cross-platform toolkit to sign, publish, and check [Nanopublications](https://nanopub.net/).
 - [papers](https://github.com/magnusmanske/papers) — A Rust crate and binary to create and update Wikidata items about scientific publications, and their authors, from third-party sources.
 - [ro-create-rust](https://github.com/arunaengine/ro-crate-rust) — A Rust implementation of the [RO-Crate](https://www.researchobject.org/ro-crate/) metadata specification for Research Objects.
-- [aruna](https://github.com/arunaengine/aruna) — A federated, FAIR peer-to-peer data management framework. 
-
-### Semantics
-- [fastbo](https://github.com/fastobo/fastobo) — A library for *faultless* ASTs for Open Biomedical Ontologies.
-- [semantic web language server](https://github.com/SemanticWebLanguageServer/swls) — A server for IDEs to add functionality for semantic web languages.
-- [reasonable](https://www.w3.org/TR/turtle/) — An OWL 2 RL reasoner with reasonable performance.
-- [roxi](https://github.com/pbonte/roxi) — A uniform framework for Reactive Reasoning applications.
-- [hdt](https://github.com/konradhoeffner/hdt) — A Rust library for the [Header Dictionary Triples](https://github.com/konradhoeffner/hdt) compressed RDF format.
-- [rickview](https://github.com/konradhoeffner/rickview) — An easy to deploy low-resource stand-alone RDF knowledge graph browser written in Rust. 
-- [decisym engine (`de`)](https://github.com/DeciSym/de) — A command-line tool for creating, querying, and inspecting RDF data in [HDT](http://www.rdfhdt.org/)(Header, Dictionary, Triples) format.
 - [wikibase_rest_api](https://github.com/magnusmanske/wikibase_rest_api) — A Rust client library for the [Wikibase REST API](https://doc.wikimedia.org/Wikibase/master/js/rest-api/).
 - [wikidata](https://github.com/syvb/wikidata/) — Rust bindings for [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) to make it easy to use data from Wikidata in Rust programs.
-- [listeria_rs](https://github.com/magnusmanske/listeria_rs) — Code base that runs the Listeria bot on Wikimedia wikis.
-- [json2rdf](https://github.com/DeciSym/json2rdf) — Rust-based tool that converts JSON data into RDF format. 
-- [xml2rdf](https://github.com/DeciSym/xml2rdf) — Rust-based tool converts XML to RDF.
-- [graph-rdfa-processor](https://github.com/nbittich/graph-rdfa-processor) — Rust and wasm library to extract RDF statements (in n-triples format) froml an html file based on rdfa annotations.
-- [Qlue-ls](https://github.com/IoannisNezis/Qlue-ls) — A blazingly fast [language server](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification) for [SPARQL](https://de.wikipedia.org/wiki/SPARQL).
-- [manas](https://github.com/manomayam/manas) — Modular framework and ecosystem to create correct, robust storage servers adhering to [Solid protocol](https://solidproject.org/TR/protocol).
-- [atomic-server](https://github.com/ontola/atomic-server) — A lightweight, yet powerful CMS / Graph Database using [Atomic Data](https://docs.atomicdata.dev/).
-- [nextgraph-rs](https://git.nextgraph.org/NextGraph/nextgraph-rs) — A Rust implementation of [NextGraph](https://nextgraph.org/) ([github version](https://github.com/nextgraph-org/nextgraph-rs)).
-- [toon-ld](https://github.com/argahsuknesib/toon-ld) — Token-Oriented Object Notation for Linked Data (TOON-LD) is a lossless knowledge graph compression format for LLM Context Windows.
+
 
 ---
 
