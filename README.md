@@ -136,6 +136,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [graph-rdfa-processor](https://github.com/nbittich/graph-rdfa-processor) — Rust and wasm library to extract RDF statements (in n-triples format) froml an html file based on rdfa annotations.
 - [Qlue-ls](https://github.com/IoannisNezis/Qlue-ls) — A blazingly fast [language server](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification) for [SPARQL](https://de.wikipedia.org/wiki/SPARQL).
 - [manas](https://github.com/manomayam/manas) — Modular framework and ecosystem to create correct, robust storage servers adhering to [Solid protocol](https://solidproject.org/TR/protocol).
+- [atomic-server](https://github.com/ontola/atomic-server) — A lightweight, yet powerful CMS / Graph Database using [Atomic Data](https://docs.atomicdata.dev/).
 
 ---
 
