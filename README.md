@@ -131,7 +131,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [json2rdf](https://github.com/DeciSym/json2rdf) — Rust-based tool that converts JSON data into RDF format. 
 - [toon-ld](https://github.com/argahsuknesib/toon-ld) — Token-Oriented Object Notation for Linked Data (TOON-LD) is a lossless knowledge graph compression format for LLM Context Windows.
 - [xml2rdf](https://github.com/DeciSym/xml2rdf) — Rust-based tool that converts XML to RDF.
-
+- [webgraph-rs](https://github.com/vigna/webgraph-rs) — Rust based implementation of the Java based [WebGraph](https://webgraph.di.unimi.it/) compression framework.
 
 ### Knowledge Graph Stores & Application
 - [atomic-server](https://github.com/ontola/atomic-server) — A lightweight, yet powerful CMS / Graph Database using [Atomic Data](https://docs.atomicdata.dev/).
