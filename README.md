@@ -89,6 +89,7 @@ More comprehensive lists can be found in the [Awesome-Rust-MachineLearning](http
 - [mzsignal](https://github.com/mobiusklein/mzsignal) — Algorithms for low-level signal processing of mass spectra and temporal traces like chromatograms or mobilograms, including peak picking, feature extraction, signal averaging, smoothing and denoising.
 - [mzdeisotope](https://github.com/mobiusklein/mzdeisotope) — Algorithms for charge state deconvolution and deisotoping of mass spectra and feature maps.
 - [mass-fragment-index](https://github.com/mobiusklein/mass-fragment-index) — Data structures for large-scale searching of precursor-product collections suitable for fragment indices, spectral libraries, or similar data. Includes fast-to-search on-disk serialization.
+- [mass-spectrometry-traits](https://github.com/earth-metabolome-initiative/mass-spectrometry-traits) - Rust crate providing algorithms and data structures primarely for work in mass spectrometry.
 
 ---
 
